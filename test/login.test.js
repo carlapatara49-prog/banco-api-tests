@@ -11,8 +11,8 @@ describe('login',function (){
                   'username': 'julio.lima',
                   'senha': '123456'
                 })
-        expect('resposta.status').to.equal('200');        
-        expect('resposta.body.token').to.be.a('string');        
+        expect(resposta.status).to.equal(200);        
+        expect(resposta.body.token).to.be.a('string');        
      })   
     })
 })
