@@ -1,6 +1,6 @@
 const request = require('supertest');
 const { expect } = require('chai')
-require ('dontenv').config()
+require ('dotenv').config()
 const postLogin = require ('../fixtures/postLogin.json')
 
 describe('login',function (){
